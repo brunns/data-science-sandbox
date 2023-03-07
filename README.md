@@ -6,7 +6,7 @@ Data Scence Sandbox
 
 * [Jupyter](https://pinboard.in/u:brunns/t:jupyter), particularly [Jupyter Notebook: An Introduction](https://realpython.com/jupyter-notebook-introduction/).
 * [Numpy](https://pinboard.in/u:brunns/t:numpy)
-* [Pandas](https://pinboard.in/u:brunns/t:pandas), Using Pandas and Python to Explore Your Dataset](https://realpython.com/pandas-python-explore-dataset/).
+* [Pandas](https://pinboard.in/u:brunns/t:pandas), particularly [Using Pandas and Python to Explore Your Dataset](https://realpython.com/pandas-python-explore-dataset/).
 
 ## Set up
 
