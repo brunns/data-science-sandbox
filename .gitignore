@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Direnv
+.envrc
+
+# Editor cruft
+*~
+

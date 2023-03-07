@@ -1,0 +1,7 @@
+jupyter~=1.0
+matplotlib~=3.5
+numpy~=1.23
+odfpy~=1.4
+pandas~=1.4
+scipy~=1.10
+mysql-connector-python~=8.0
