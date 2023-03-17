@@ -1,5 +1,7 @@
+ipython~=8.11
 jupyterlab~=3.6
 jupyter~=1.0
+jupytext~=1.14
 matplotlib~=3.5
 mysql-connector-python~=8.0
 numpy~=1.23
