@@ -26,14 +26,19 @@ f = x**2 + 1
 plot(f)
 
 # %%
-f2 = 2*x**2 + y**2
+f2 = (2*x)**2 + y**2
 display(f2)
-plot3d(f)
+plot3d(f2)
 
 
 # %%
 dx_f = diff(f, x)
 display(dx_f)
-plot(dx_f)
+
+# %%
+dx_f = diff(f2, x)
+dy_f = diff(f2, y)
+display(dx_f)
+display(dy_f)
 
 # %%
