@@ -18,23 +18,26 @@
 # See [Predicting wine quality using chemical properties](https://spiralizing.github.io/DSEntries/WineQuality/)
 
 # %%
+import numpy as np
 import pandas as pd
-import numpy as np 
 
 # %%
-url_red = "https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv"
-url_white = "https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-white.csv"
-
-rwine = pd.read_csv(str(url_red), sep=';')
-wwine = pd.read_csv(str(url_white), sep=';')
-
-# %%
-rwine.head()
-
-# %%
-rwine.info()
+red = pd.read_csv(
+    "https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv",
+    sep=";",
+)
+white = pd.read_csv(
+    "https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-white.csv",
+    sep=";",
+)
 
 # %%
-rwine.describe()
+red.head()
+
+# %%
+red.info()
+
+# %%
+red.describe()
 
 # %%
