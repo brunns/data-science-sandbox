@@ -1,6 +1,9 @@
 black~=23.1
+duckdb-engine~=0.7
+duckdb~=0.7
 ipython~=8.11
 isort~=5.12
+jupysql~=0.6
 jupyterlab-code-formatter~=1.5
 jupyterlab~=3.6
 jupyter~=1.0
