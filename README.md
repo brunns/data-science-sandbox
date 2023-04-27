@@ -20,6 +20,8 @@ Copy `.envrc.template` to `.envrc` and populate. (Do not commit `.envrc`!)
 
 ### setup
 
+All setup
+
 ```sh
 python -V  # Any version after 3.6 is probably fine.
 python -m venv .venv
@@ -28,6 +30,8 @@ pip install -U -r requirements.txt
 ```
 
 ### start
+
+Start notebook
 
 ```sh
 jupyter lab --port=8989
