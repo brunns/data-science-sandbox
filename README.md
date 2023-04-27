@@ -10,23 +10,25 @@ Data Scence Sandbox
 * [matplotlib](https://pinboard.in/u:brunns/t:matplotlib)
 * [SymPy](https://pinboard.in/u:brunns/t:sympy)
 
-## Set up
-
-```bash
-python -V  # Any version after 3.6 is probably fine.
-python -m venv .venv
-source .venv/bin/activate
-pip install -U -r requirements.txt
-```
-
 ### Using Direnv to populate credentials
 
 Install [direnv](https://direnv.net/) if necessary.
 
 Copy `.envrc.template` to `.envrc` and populate. (Do not commit `.envrc`!)
 
-## Start
+## Tasks
 
-```bash
+### setup
+
+```sh
+python -V  # Any version after 3.6 is probably fine.
+python -m venv .venv
+source .venv/bin/activate
+pip install -U -r requirements.txt
+```
+
+### start
+
+```sh
 jupyter lab --port=8989
 ```
