@@ -7,6 +7,7 @@ Data Scence Sandbox
 * [Jupyter](https://pinboard.in/u:brunns/t:jupyter), particularly [Jupyter Notebook: An Introduction](https://realpython.com/jupyter-notebook-introduction/).
 * [Numpy](https://pinboard.in/u:brunns/t:numpy)
 * [Pandas](https://pinboard.in/u:brunns/t:pandas), particularly [Using Pandas and Python to Explore Your Dataset](https://realpython.com/pandas-python-explore-dataset/).
+* [Polars](https://www.pola.rs/) - see [Python Polars: A Lightning-Fast DataFrame Library](https://realpython.com/polars-python/).
 * [matplotlib](https://pinboard.in/u:brunns/t:matplotlib)
 * [SymPy](https://pinboard.in/u:brunns/t:sympy)
 
@@ -23,7 +24,7 @@ Copy `.envrc.template` to `.envrc` and populate. (Do not commit `.envrc`!)
 All setup
 
 ```sh
-python -V  # Any version after 3.6 is probably fine.
+python -V  # Any version at or after 3.7 is probably fine.
 python -m venv .venv
 source .venv/bin/activate
 pip install -U -r requirements.txt
